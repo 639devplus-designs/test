@@ -1,0 +1,205 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+}
+
+.btn{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.container {
+      max-width: none !important;
+      width: 1170px;
+}
+
+.container-header {
+  position: relative;
+}
+embed.icon-header {
+  float: left;
+  margin-right: 12px;
+}
+
+.text-header {
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  top: 20px;
+  left: 24px;
+
+}
+
+.card.dashboard{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: #f7f7f7;
+  border: none;
+}
+#dashboard-diagram{
+  background-color: white;
+}
+
+#row-start{
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.row-diagram{
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+#row-end{
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+}
+
+/*----------------------- Diagram Button --------------------------- */
+
+/*----------------------- Diagram 1 large Light blue Button --------------------------- */
+.btn.btn-primary.diagram-1 {
+  color: rgba(0, 0, 0, 0.80);
+  font-size: 14px;
+  background-color: #dae7f7;
+  border: 1px solid #b5d3f8;
+  height: 36px;
+  padding-top: 6px;
+}
+
+/*----------------------- Diagram Blue Button row2  --------------------------- */
+.btn.btn-primary.diagram-2 {
+  color: #fff;
+  font-size: 14px;
+  background-color: #1c75bc;
+  border-color: #1c75bc;
+  width: 142px;
+  height: 122px;
+  margin-right: 11.7px;
+}
+
+.btn-primary.diagram-2:hover {
+  color: #fff;
+  background-color: #1c75bc;
+  border: 1px solid #00269b;
+}
+.btn-primary.diagram-2:not([disabled]):not(.disabled):active, .btn-primary.diagram-2:not([disabled]):not(.disabled).active, .show > .btn-primary.diagram-2.dropdown-toggle
+.btn.btn-primary.diagram-2:hover:focus{  
+  color: white;
+  background: #fbb700;
+  border: 1px solid #faa700;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+  
+}
+
+.btn.btn-primary.diagram-2:focus, .btn-primary.diagram-2.custom-file-control:focus::before, .btn.btn-primary.diagram-2.focus, .btn-primary.diagram-2.focus.custom-file-control::before{
+  color: white;
+  background-color: #1c75bc;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+ 
+}
+
+.btn-primary.diagram-2:not([disabled]):not(.disabled):active:focus, .btn-primary.diagram-2:not([disabled]):not(.disabled).active:focus,
+.show > .btn-primary.diagram-2.dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/*----------------------- Diagram 3 large Light blue Button row3 --------------------------- */
+.btn.btn-primary.diagram-3 {
+  color: rgba(0, 0, 0, 0.80);
+  font-size: 14px;
+  background-color: #dae7f7;
+  border: 1px solid #b5d3f8;
+  width: 353px;
+  height: 36px;
+  padding-top: 6px;
+  margin-right: 11.7px;
+}
+/*----------------------- Diagram 2 large Light blue Button row4 1&4 --------------------------- */
+.btn.btn-primary.diagram-4 {
+  color: rgba(0, 0, 0, 0.80);
+  font-size: 14px;
+  background-color: #dae7f7;
+  border: 1px solid #b5d3f8;
+  width: 260px;
+  height: 122px;
+  padding-top: 50px;
+  margin-right: 11.7px;
+}
+/*----------------------- Diagram large Blue Button row4  --------------------------- */
+.btn.btn-primary.diagram-2-large {
+  color: #fff;
+  font-size: 14px;
+  background-color: #1c75bc;
+  border-color: #1c75bc;
+  width: 261.5px;
+  height: 122px;
+  margin-right: 11.7px;
+}
+
+.btn-primary.diagram-2-large:hover {
+  color: #fff;
+  background-color: #1c75bc;
+  border: 1px solid #00269b;
+}
+.btn-primary.diagram-2-large:not([disabled]):not(.disabled):active, .btn-primary.diagram-2-large:not([disabled]):not(.disabled).active, .show > .btn-primary.diagram-2-large.dropdown-toggle
+.btn.btn-primary.diagram-2-large:hover:focus{  
+  color: white;
+  background: #fbb700;
+  border: 1px solid #faa700;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+  
+}
+
+.btn.btn-primary.diagram-2-large:focus, .btn-primary.diagram-2-large.custom-file-control:focus::before, .btn.btn-primary.diagram-2-large.focus, .btn-primary.diagram-2-large.focus.custom-file-control::before{
+  color: white;
+  background-color: #1c75bc;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+ 
+}
+
+.btn-primary.diagram-2-large:not([disabled]):not(.disabled):active:focus, .btn-primary.diagram-2-large:not([disabled]):not(.disabled).active:focus,
+.show > .btn-primary.diagram-2-large.dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/*----------------------- Diagram 2 large Light blue Button row7 --------------------------- */
+.btn.btn-primary.diagram-5 {
+  color: rgba(0, 0, 0, 0.80);
+  font-size: 14px;
+  background-color: #dae7f7;
+  border: 1px solid #b5d3f8;
+  width: 537.5px;
+  height: 36px;
+  padding-top: 6px;
+  margin-right: 11.7px;
+}
+
+
+    
